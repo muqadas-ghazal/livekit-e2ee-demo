@@ -1,5 +1,5 @@
 {
-  "name": "livekit-e2ee-demo",
+  "name": "vonage-custom-e2ee-poc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.17",
+    "@radix-ui/react-scroll-area": "^1.4.0",
+    "@radix-ui/react-separator": "^1.2.0",
+    "@radix-ui/react-slot": "^1.5.0",
+    "@vonage/client-sdk-video": "^2.35.3",
+    "@vonage/media-processor": "^3.1.0",
+    "@vonage/server-sdk": "^3.30.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.63.0",
     "next": "16.4.3",
+    "next-themes": "^0.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",

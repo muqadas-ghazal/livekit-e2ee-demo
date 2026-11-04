@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+  serverExternalPackages: ["@vonage/server-sdk", "@vonage/video", "@vonage/auth"],
   turbopack: {
     rules: {
       "*.css": {
